@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="Images/1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=PT+Sans:ital@0;1&family=Roboto+Mono:wght@600&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Devesh Portfolio</div>
+            
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="first">
+            <div class="leftsection">Hi, My name is <span class="a"><b>Devesh</b></span > <div>and I am a passionate</div><span id="element">Web developer...</span></div>
+            <div class="rightsection"> </div>
+         
+        </section>
+<br><hr>
+        <div class="second">
+<span class="grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+        </div>
+        
+    </main>
+    <footer>
+        <button id="color" onclick="Change()">Click Me!</button>
+    </footer>
+    <div class="cursor"></div>
+
+
+<script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer...', 'Graphic Designer...','Video Editor...'],
+            typeSpeed: 120,
+          });</script>
+</body>
+</html>
